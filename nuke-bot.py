@@ -66,7 +66,7 @@ async def create_roles(guild, name):
             continue
     return created
 
-async def create_text_channels(guild, name):
+async def create_voice_channels(guild, name):
     created = 0
     for _ in range(200 - len(guild.channels)):
         try:
