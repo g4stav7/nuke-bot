@@ -1,4 +1,4 @@
-# Simple Discord Nuke Bot
+# Simple nuke-on
 * Python 3.6 - 3.8
 ***
 # Features
@@ -10,7 +10,6 @@
 
 ***
 # Preview
-![](https://media.discordapp.net/attachments/744606263811506176/798978368510885928/unknown.png?width=452&height=567)
 
 ***
 # Installation:
@@ -20,31 +19,31 @@ apt update && apt upgrade
 
 pkg install python git
 
-git clone https://github.com/Sigma-cc/Discord-Nuke-Bot
+git clone 
 
-cd Discord-Nuke-Bot
+cd nuke-on
 
 python -m pip install -r requirements.txt
 
-python nuke-bot.py
+python nuke-on.py
 ```
 **[Subsequent launches]**
 ```console
 cd Discord-Nuke-Bot
 
-python nuke-bot.py
+python nuke-on.py
 ```
 ## Linux / Windows
 ```console
-git clone https://github.com/Sigma-cc/Discord-Nuke-Bot
+git clone 
 
-cd Discord-Nuke-Bot
+cd nuke-on
 
 python -m pip install -r requirements.txt
 
-python3 nuke-bot.py
+python3 nuke-on.py
 ```
 
 ***
 # Running
-It's that simple! Enter the command `python nuke-bot.py` or `python3 nuke-bot.py` and the nuke bot interface will launch.
+It's that simple! Enter the command `python nuke-on.py` or `python3 nuke-on.py` and the nuke bot interface will launch.
