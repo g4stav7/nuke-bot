@@ -19,7 +19,7 @@ apt update && apt upgrade
 
 pkg install python git
 
-git clone 
+git clone https://github.com/g4stav7/nuke-on.git
 
 cd nuke-on
 
@@ -29,13 +29,13 @@ python nuke-on.py
 ```
 **[Subsequent launches]**
 ```console
-cd Discord-Nuke-Bot
+cd nuke-on
 
 python nuke-on.py
 ```
 ## Linux / Windows
 ```console
-git clone 
+git clone https://github.com/g4stav7/nuke-on.git
 
 cd nuke-on
 
