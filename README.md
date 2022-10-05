@@ -5,7 +5,7 @@
  - [x] Delete Channels
  - [x] Ban All Members
  - [x] Delete Roles
- - [x] Create Channels
+ - [x] Create Channel
  - [ ] Create Roles
 
 ***
@@ -25,13 +25,13 @@ cd nuke-on
 
 python -m pip install -r requirements.txt
 
-python nuke-on.py
+python main.py
 ```
 **[Subsequent launches]**
 ```console
 cd nuke-on
 
-python nuke-on.py
+python main.py
 ```
 ## Linux / Windows
 ```console
@@ -41,9 +41,9 @@ cd nuke-on
 
 python -m pip install -r requirements.txt
 
-python3 nuke-on.py
+python3 main.py
 ```
 
 ***
 # Running
-It's that simple! Enter the command `python nuke-on.py` or `python3 nuke-on.py` and the nuke bot interface will launch.
+It's that simple! Enter the command `python main.py` or `python3 main.py` and the nuke bot interface will launch.
