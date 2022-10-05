@@ -25,13 +25,13 @@ cd nuke-on
 
 python -m pip install -r requirements.txt
 
-python main.py
+python nuke-on.py
 ```
 **[Subsequent launches]**
 ```console
 cd nuke-on
 
-python main.py
+python nuke-on.py
 ```
 ## Linux / Windows
 ```console
@@ -41,9 +41,9 @@ cd nuke-on
 
 python -m pip install -r requirements.txt
 
-python3 main.py
+python3 nuke-on.py
 ```
 
 ***
 # Running
-It's that simple! Enter the command `python main.py` or `python3 main.py` and the nuke bot interface will launch.
+It's that simple! Enter the command `python nuke-on.py` or `python3 nuke-on.py` and the nuke bot interface will launch.
