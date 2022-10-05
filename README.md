@@ -10,7 +10,7 @@
 
 ***
 # Preview
-![]https://photos.app.goo.gl/kmsjaRsfYnfNzAgZ8
+![]https://cdn.discordapp.com/attachments/1008005867305717852/1027056190062084096/Screenshot_20221005-001050-4722.png
 ***
 # Installation:
 ## Android(Termux):
