@@ -112,19 +112,19 @@ while True:
 {baner}                
 {c}--------------------------------------------
 {b}[Menu]
-    {y}└─[1] {m}- {g}Run Setup Nuke Bot
-    {y}└─[2] {m}- {g}Exit
+    {y}└─[1] {m}- {g}Execute a configuração do Nuke Bot
+    {y}└─[2] {m}- {g}Saida
 {y}====>{g}''')
     if choice == '1':
-        token = _input(f'{y}Input bot token:{g}')
-        name = _input(f'{y}Input name for created channels / roles:{g}')
+        token = _input(f'{y}Insira o token do bot:{g}')
+        name = _input(f'{y}Nome de entrada para canais/funções criados:{g}')
         clear()
         choice_type = _input(f'''
 {baner}                
 {c}--------------------------------------------
 {b}[Select]
-    {y}└─[1] {m}- {g}Nuke of all servers.
-    {y}└─[2] {m}- {g}Nuke only one server.  
+    {y}└─[1] {m}- {g}Nuke de todos os servidores.
+    {y}└─[2] {m}- {g}Nuke apenas um servidor.  
     {y}└─[3] {m}- {g}Exit
 {y}====>{g}''')
         client = commands.Bot(command_prefix='.',intents=discord.Intents.all())
@@ -138,7 +138,7 @@ while True:
                     await nuke_guild(guild)
                 await client.close()
         elif choice_type == '2':
-            guild_id =  _input(f'{y}Input server id:{g}')
+            guild_id =  _input(f'{y}:ID do servidor de entrada{g}')
             @client.event
             async def on_ready():
                 for guild in client.guilds:
@@ -150,7 +150,7 @@ while True:
             exit()
         try:
             client.run(token)
-            input('Nuke finished, press enter for return to menu...')
+            input('Nuke terminado, pressione enter para retornar ao menu...')
         except Exception as error:
             if error == '''Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.''':
                 input(f'{r}Intents Error\n{g}For fix -> https://prnt.sc/wmrwut\n{b}Press enter for return...')
