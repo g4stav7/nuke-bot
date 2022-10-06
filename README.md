@@ -19,7 +19,7 @@ apt update && apt upgrade
 
 pkg install python git
 
-git clone https://github.com/g4stav7/nuke-on.git
+git clone https://github.com/g4stav7/nuke-bot.git
 
 cd nuke-on
 
@@ -35,7 +35,7 @@ python nuke-bot.py
 ```
 ## Linux / Windows
 ```console
-git clone https://github.com/g4stav7/nuke-on.git
+git clone https://github.com/g4stav7/nuke-bot.git
 
 cd nuke-on
 
