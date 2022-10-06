@@ -36,7 +36,7 @@ baner = f'''
  | . ` | |  | |  < |  __|   |  _ <| |  | | | |
  | |\  | |__| | . \| |____  | |_) | |__| | | |
  |_| \_|\____/|_|\_\______| |____/ \____/  |_|
-{y}Made by: {g}https://github.com/g4stav7/nuke-on.git'''
+{y}Made by: {g}https://github.com/g4stav7/nuke-bot.git'''
 
 
 
