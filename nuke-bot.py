@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import random
 from colorama import init, Fore as cc
 from os import name as os_name, system
 from sys import exit
