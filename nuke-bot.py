@@ -6,6 +6,8 @@ from sys import exit
 
 SPAM_MESSAGE = ["@everyone DERRUBADO POR FUZZE Zzz😴"]
 
+channel.send(random.choice(SPAM_MESSAGE))
+
 init()
 dr = DR = r = R = cc.LIGHTRED_EX
 g = G = cc.LIGHTGREEN_EX
@@ -163,6 +165,3 @@ while True:
     elif choice == '2':
         print(f'{dr}Exit...')
         exit()
-
-        await
-channel.send(random.choice(SPAM_MESSAGE))
