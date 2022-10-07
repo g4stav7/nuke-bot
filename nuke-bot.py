@@ -163,8 +163,6 @@ while True:
     elif choice == '2':
         print(f'{dr}Exit...')
         exit()
-        await
-channel.send(random.choice(SPAM_MESSAGE))
 
         await
 channel.send(random.choice(SPAM_MESSAGE))
