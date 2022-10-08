@@ -6,9 +6,6 @@ from os import name as os_name, system
 from sys import exit
 
 SPAM_MESSAGE = ["@everyone DERRUBADO POR FUZZE Zzz😴"]
-
-channel.send(random.choice(SPAM_MESSAGE))
-
 init()
 dr = DR = r = R = cc.LIGHTRED_EX
 g = G = cc.LIGHTGREEN_EX
